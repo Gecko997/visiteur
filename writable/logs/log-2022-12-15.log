@@ -1,0 +1,235 @@
+ERROR - 2022-12-15 02:30:37 --> Error connecting to the database: Access denied for user ''@'localhost' (using password: NO)
+CRITICAL - 2022-12-15 02:30:37 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+#0 C:\Users\BTS SIO\Documents\BTS sio\cours\activité pro alban\ChopesGames\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\Users\BTS SIO\Documents\BTS sio\cours\activité pro alban\ChopesGames\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\Users\BTS SIO\Documents\BTS sio\cours\activité pro alban\ChopesGames\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\Users\BTS SIO\Documents\BTS sio\cours\activité pro alban\ChopesGames\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 C:\Users\BTS SIO\Documents\BTS sio\cours\activité pro alban\ChopesGames\app\Models\ModeleProduit.php(27): CodeIgniter\BaseModel->findAll()
+#5 C:\Users\BTS SIO\Documents\BTS sio\cours\activité pro alban\ChopesGames\app\Controllers\Visiteur.php(20): App\Models\ModeleProduit->retourner_vitrine()
+#6 C:\Users\BTS SIO\Documents\BTS sio\cours\activité pro alban\ChopesGames\system\CodeIgniter.php(824): App\Controllers\Visiteur->accueil()
+#7 C:\Users\BTS SIO\Documents\BTS sio\cours\activité pro alban\ChopesGames\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Visiteur))
+#8 C:\Users\BTS SIO\Documents\BTS sio\cours\activité pro alban\ChopesGames\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\BTS SIO\Documents\BTS sio\cours\activité pro alban\ChopesGames\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\BTS SIO\Documents\BTS sio\cours\activité pro alban\ChopesGames\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\BTS SI...')
+#11 {main}
+ERROR - 2022-12-15 02:30:47 --> Error connecting to the database: Access denied for user ''@'localhost' (using password: NO)
+CRITICAL - 2022-12-15 02:30:47 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+#0 C:\Users\BTS SIO\Documents\BTS sio\cours\activité pro alban\ChopesGames\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\Users\BTS SIO\Documents\BTS sio\cours\activité pro alban\ChopesGames\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\Users\BTS SIO\Documents\BTS sio\cours\activité pro alban\ChopesGames\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\Users\BTS SIO\Documents\BTS sio\cours\activité pro alban\ChopesGames\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 C:\Users\BTS SIO\Documents\BTS sio\cours\activité pro alban\ChopesGames\app\Models\ModeleProduit.php(27): CodeIgniter\BaseModel->findAll()
+#5 C:\Users\BTS SIO\Documents\BTS sio\cours\activité pro alban\ChopesGames\app\Controllers\Visiteur.php(20): App\Models\ModeleProduit->retourner_vitrine()
+#6 C:\Users\BTS SIO\Documents\BTS sio\cours\activité pro alban\ChopesGames\system\CodeIgniter.php(824): App\Controllers\Visiteur->accueil()
+#7 C:\Users\BTS SIO\Documents\BTS sio\cours\activité pro alban\ChopesGames\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Visiteur))
+#8 C:\Users\BTS SIO\Documents\BTS sio\cours\activité pro alban\ChopesGames\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\BTS SIO\Documents\BTS sio\cours\activité pro alban\ChopesGames\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\BTS SIO\Documents\BTS sio\cours\activité pro alban\ChopesGames\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\BTS SI...')
+#11 {main}
+ERROR - 2022-12-15 02:31:22 --> Error connecting to the database: Access denied for user ''@'localhost' (using password: NO)
+CRITICAL - 2022-12-15 02:31:22 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+#0 C:\Users\BTS SIO\Documents\BTS sio\cours\activité pro alban\ChopesGames\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\Users\BTS SIO\Documents\BTS sio\cours\activité pro alban\ChopesGames\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\Users\BTS SIO\Documents\BTS sio\cours\activité pro alban\ChopesGames\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\Users\BTS SIO\Documents\BTS sio\cours\activité pro alban\ChopesGames\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 C:\Users\BTS SIO\Documents\BTS sio\cours\activité pro alban\ChopesGames\app\Models\ModeleProduit.php(27): CodeIgniter\BaseModel->findAll()
+#5 C:\Users\BTS SIO\Documents\BTS sio\cours\activité pro alban\ChopesGames\app\Controllers\Visiteur.php(20): App\Models\ModeleProduit->retourner_vitrine()
+#6 C:\Users\BTS SIO\Documents\BTS sio\cours\activité pro alban\ChopesGames\system\CodeIgniter.php(824): App\Controllers\Visiteur->accueil()
+#7 C:\Users\BTS SIO\Documents\BTS sio\cours\activité pro alban\ChopesGames\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Visiteur))
+#8 C:\Users\BTS SIO\Documents\BTS sio\cours\activité pro alban\ChopesGames\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\BTS SIO\Documents\BTS sio\cours\activité pro alban\ChopesGames\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\BTS SIO\Documents\BTS sio\cours\activité pro alban\ChopesGames\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\BTS SI...')
+#11 {main}
+ERROR - 2022-12-15 02:32:37 --> Error connecting to the database: Access denied for user ''@'localhost' (using password: NO)
+CRITICAL - 2022-12-15 02:32:37 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+#0 C:\Users\BTS SIO\Documents\BTS sio\cours\activité pro alban\ChopesGames\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\Users\BTS SIO\Documents\BTS sio\cours\activité pro alban\ChopesGames\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\Users\BTS SIO\Documents\BTS sio\cours\activité pro alban\ChopesGames\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\Users\BTS SIO\Documents\BTS sio\cours\activité pro alban\ChopesGames\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 C:\Users\BTS SIO\Documents\BTS sio\cours\activité pro alban\ChopesGames\app\Models\ModeleProduit.php(27): CodeIgniter\BaseModel->findAll()
+#5 C:\Users\BTS SIO\Documents\BTS sio\cours\activité pro alban\ChopesGames\app\Controllers\Visiteur.php(20): App\Models\ModeleProduit->retourner_vitrine()
+#6 C:\Users\BTS SIO\Documents\BTS sio\cours\activité pro alban\ChopesGames\system\CodeIgniter.php(824): App\Controllers\Visiteur->accueil()
+#7 C:\Users\BTS SIO\Documents\BTS sio\cours\activité pro alban\ChopesGames\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Visiteur))
+#8 C:\Users\BTS SIO\Documents\BTS sio\cours\activité pro alban\ChopesGames\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\BTS SIO\Documents\BTS sio\cours\activité pro alban\ChopesGames\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\BTS SIO\Documents\BTS sio\cours\activité pro alban\ChopesGames\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\BTS SI...')
+#11 {main}
+ERROR - 2022-12-15 02:33:37 --> Error connecting to the database: Access denied for user ''@'localhost' (using password: NO)
+CRITICAL - 2022-12-15 02:33:37 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+#0 C:\Users\BTS SIO\Documents\BTS sio\cours\activité pro alban\ChopesGames\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\Users\BTS SIO\Documents\BTS sio\cours\activité pro alban\ChopesGames\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\Users\BTS SIO\Documents\BTS sio\cours\activité pro alban\ChopesGames\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\Users\BTS SIO\Documents\BTS sio\cours\activité pro alban\ChopesGames\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 C:\Users\BTS SIO\Documents\BTS sio\cours\activité pro alban\ChopesGames\app\Models\ModeleProduit.php(27): CodeIgniter\BaseModel->findAll()
+#5 C:\Users\BTS SIO\Documents\BTS sio\cours\activité pro alban\ChopesGames\app\Controllers\Visiteur.php(20): App\Models\ModeleProduit->retourner_vitrine()
+#6 C:\Users\BTS SIO\Documents\BTS sio\cours\activité pro alban\ChopesGames\system\CodeIgniter.php(824): App\Controllers\Visiteur->accueil()
+#7 C:\Users\BTS SIO\Documents\BTS sio\cours\activité pro alban\ChopesGames\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Visiteur))
+#8 C:\Users\BTS SIO\Documents\BTS sio\cours\activité pro alban\ChopesGames\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\BTS SIO\Documents\BTS sio\cours\activité pro alban\ChopesGames\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\BTS SIO\Documents\BTS sio\cours\activité pro alban\ChopesGames\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\BTS SI...')
+#11 {main}
+ERROR - 2022-12-15 02:33:38 --> Error connecting to the database: Access denied for user ''@'localhost' (using password: NO)
+CRITICAL - 2022-12-15 02:33:38 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+#0 C:\Users\BTS SIO\Documents\BTS sio\cours\activité pro alban\ChopesGames\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\Users\BTS SIO\Documents\BTS sio\cours\activité pro alban\ChopesGames\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\Users\BTS SIO\Documents\BTS sio\cours\activité pro alban\ChopesGames\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\Users\BTS SIO\Documents\BTS sio\cours\activité pro alban\ChopesGames\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 C:\Users\BTS SIO\Documents\BTS sio\cours\activité pro alban\ChopesGames\app\Models\ModeleProduit.php(27): CodeIgniter\BaseModel->findAll()
+#5 C:\Users\BTS SIO\Documents\BTS sio\cours\activité pro alban\ChopesGames\app\Controllers\Visiteur.php(20): App\Models\ModeleProduit->retourner_vitrine()
+#6 C:\Users\BTS SIO\Documents\BTS sio\cours\activité pro alban\ChopesGames\system\CodeIgniter.php(824): App\Controllers\Visiteur->accueil()
+#7 C:\Users\BTS SIO\Documents\BTS sio\cours\activité pro alban\ChopesGames\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Visiteur))
+#8 C:\Users\BTS SIO\Documents\BTS sio\cours\activité pro alban\ChopesGames\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\BTS SIO\Documents\BTS sio\cours\activité pro alban\ChopesGames\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\BTS SIO\Documents\BTS sio\cours\activité pro alban\ChopesGames\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\BTS SI...')
+#11 {main}
+ERROR - 2022-12-15 02:33:38 --> Error connecting to the database: Access denied for user ''@'localhost' (using password: NO)
+CRITICAL - 2022-12-15 02:33:38 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+#0 C:\Users\BTS SIO\Documents\BTS sio\cours\activité pro alban\ChopesGames\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\Users\BTS SIO\Documents\BTS sio\cours\activité pro alban\ChopesGames\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\Users\BTS SIO\Documents\BTS sio\cours\activité pro alban\ChopesGames\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\Users\BTS SIO\Documents\BTS sio\cours\activité pro alban\ChopesGames\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 C:\Users\BTS SIO\Documents\BTS sio\cours\activité pro alban\ChopesGames\app\Models\ModeleProduit.php(27): CodeIgniter\BaseModel->findAll()
+#5 C:\Users\BTS SIO\Documents\BTS sio\cours\activité pro alban\ChopesGames\app\Controllers\Visiteur.php(20): App\Models\ModeleProduit->retourner_vitrine()
+#6 C:\Users\BTS SIO\Documents\BTS sio\cours\activité pro alban\ChopesGames\system\CodeIgniter.php(824): App\Controllers\Visiteur->accueil()
+#7 C:\Users\BTS SIO\Documents\BTS sio\cours\activité pro alban\ChopesGames\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Visiteur))
+#8 C:\Users\BTS SIO\Documents\BTS sio\cours\activité pro alban\ChopesGames\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\BTS SIO\Documents\BTS sio\cours\activité pro alban\ChopesGames\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\BTS SIO\Documents\BTS sio\cours\activité pro alban\ChopesGames\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\BTS SI...')
+#11 {main}
+ERROR - 2022-12-15 02:33:38 --> Error connecting to the database: Access denied for user ''@'localhost' (using password: NO)
+CRITICAL - 2022-12-15 02:33:38 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+#0 C:\Users\BTS SIO\Documents\BTS sio\cours\activité pro alban\ChopesGames\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\Users\BTS SIO\Documents\BTS sio\cours\activité pro alban\ChopesGames\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\Users\BTS SIO\Documents\BTS sio\cours\activité pro alban\ChopesGames\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\Users\BTS SIO\Documents\BTS sio\cours\activité pro alban\ChopesGames\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 C:\Users\BTS SIO\Documents\BTS sio\cours\activité pro alban\ChopesGames\app\Models\ModeleProduit.php(27): CodeIgniter\BaseModel->findAll()
+#5 C:\Users\BTS SIO\Documents\BTS sio\cours\activité pro alban\ChopesGames\app\Controllers\Visiteur.php(20): App\Models\ModeleProduit->retourner_vitrine()
+#6 C:\Users\BTS SIO\Documents\BTS sio\cours\activité pro alban\ChopesGames\system\CodeIgniter.php(824): App\Controllers\Visiteur->accueil()
+#7 C:\Users\BTS SIO\Documents\BTS sio\cours\activité pro alban\ChopesGames\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Visiteur))
+#8 C:\Users\BTS SIO\Documents\BTS sio\cours\activité pro alban\ChopesGames\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\BTS SIO\Documents\BTS sio\cours\activité pro alban\ChopesGames\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\BTS SIO\Documents\BTS sio\cours\activité pro alban\ChopesGames\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\BTS SI...')
+#11 {main}
+ERROR - 2022-12-15 02:33:38 --> Error connecting to the database: Access denied for user ''@'localhost' (using password: NO)
+CRITICAL - 2022-12-15 02:33:38 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+#0 C:\Users\BTS SIO\Documents\BTS sio\cours\activité pro alban\ChopesGames\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\Users\BTS SIO\Documents\BTS sio\cours\activité pro alban\ChopesGames\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\Users\BTS SIO\Documents\BTS sio\cours\activité pro alban\ChopesGames\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\Users\BTS SIO\Documents\BTS sio\cours\activité pro alban\ChopesGames\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 C:\Users\BTS SIO\Documents\BTS sio\cours\activité pro alban\ChopesGames\app\Models\ModeleProduit.php(27): CodeIgniter\BaseModel->findAll()
+#5 C:\Users\BTS SIO\Documents\BTS sio\cours\activité pro alban\ChopesGames\app\Controllers\Visiteur.php(20): App\Models\ModeleProduit->retourner_vitrine()
+#6 C:\Users\BTS SIO\Documents\BTS sio\cours\activité pro alban\ChopesGames\system\CodeIgniter.php(824): App\Controllers\Visiteur->accueil()
+#7 C:\Users\BTS SIO\Documents\BTS sio\cours\activité pro alban\ChopesGames\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Visiteur))
+#8 C:\Users\BTS SIO\Documents\BTS sio\cours\activité pro alban\ChopesGames\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\BTS SIO\Documents\BTS sio\cours\activité pro alban\ChopesGames\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\BTS SIO\Documents\BTS sio\cours\activité pro alban\ChopesGames\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\BTS SI...')
+#11 {main}
+ERROR - 2022-12-15 02:34:46 --> Error connecting to the database: Access denied for user ''@'localhost' (using password: NO)
+CRITICAL - 2022-12-15 02:34:46 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+#0 C:\Users\BTS SIO\Documents\BTS sio\cours\activité pro alban\ChopesGames\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\Users\BTS SIO\Documents\BTS sio\cours\activité pro alban\ChopesGames\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\Users\BTS SIO\Documents\BTS sio\cours\activité pro alban\ChopesGames\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\Users\BTS SIO\Documents\BTS sio\cours\activité pro alban\ChopesGames\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 C:\Users\BTS SIO\Documents\BTS sio\cours\activité pro alban\ChopesGames\app\Models\ModeleProduit.php(27): CodeIgniter\BaseModel->findAll()
+#5 C:\Users\BTS SIO\Documents\BTS sio\cours\activité pro alban\ChopesGames\app\Controllers\Visiteur.php(20): App\Models\ModeleProduit->retourner_vitrine()
+#6 C:\Users\BTS SIO\Documents\BTS sio\cours\activité pro alban\ChopesGames\system\CodeIgniter.php(824): App\Controllers\Visiteur->accueil()
+#7 C:\Users\BTS SIO\Documents\BTS sio\cours\activité pro alban\ChopesGames\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Visiteur))
+#8 C:\Users\BTS SIO\Documents\BTS sio\cours\activité pro alban\ChopesGames\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\BTS SIO\Documents\BTS sio\cours\activité pro alban\ChopesGames\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\BTS SIO\Documents\BTS sio\cours\activité pro alban\ChopesGames\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\BTS SI...')
+#11 {main}
+ERROR - 2022-12-15 02:34:47 --> Error connecting to the database: Access denied for user ''@'localhost' (using password: NO)
+CRITICAL - 2022-12-15 02:34:47 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+#0 C:\Users\BTS SIO\Documents\BTS sio\cours\activité pro alban\ChopesGames\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\Users\BTS SIO\Documents\BTS sio\cours\activité pro alban\ChopesGames\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\Users\BTS SIO\Documents\BTS sio\cours\activité pro alban\ChopesGames\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\Users\BTS SIO\Documents\BTS sio\cours\activité pro alban\ChopesGames\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 C:\Users\BTS SIO\Documents\BTS sio\cours\activité pro alban\ChopesGames\app\Models\ModeleProduit.php(27): CodeIgniter\BaseModel->findAll()
+#5 C:\Users\BTS SIO\Documents\BTS sio\cours\activité pro alban\ChopesGames\app\Controllers\Visiteur.php(20): App\Models\ModeleProduit->retourner_vitrine()
+#6 C:\Users\BTS SIO\Documents\BTS sio\cours\activité pro alban\ChopesGames\system\CodeIgniter.php(824): App\Controllers\Visiteur->accueil()
+#7 C:\Users\BTS SIO\Documents\BTS sio\cours\activité pro alban\ChopesGames\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Visiteur))
+#8 C:\Users\BTS SIO\Documents\BTS sio\cours\activité pro alban\ChopesGames\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\BTS SIO\Documents\BTS sio\cours\activité pro alban\ChopesGames\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\BTS SIO\Documents\BTS sio\cours\activité pro alban\ChopesGames\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\BTS SI...')
+#11 {main}
+ERROR - 2022-12-15 02:37:46 --> Error connecting to the database: Access denied for user ''@'localhost' (using password: NO)
+CRITICAL - 2022-12-15 02:37:46 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+#0 C:\Users\BTS SIO\Documents\BTS sio\cours\activité pro alban\ChopesGames\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\Users\BTS SIO\Documents\BTS sio\cours\activité pro alban\ChopesGames\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\Users\BTS SIO\Documents\BTS sio\cours\activité pro alban\ChopesGames\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\Users\BTS SIO\Documents\BTS sio\cours\activité pro alban\ChopesGames\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 C:\Users\BTS SIO\Documents\BTS sio\cours\activité pro alban\ChopesGames\app\Models\ModeleProduit.php(27): CodeIgniter\BaseModel->findAll()
+#5 C:\Users\BTS SIO\Documents\BTS sio\cours\activité pro alban\ChopesGames\app\Controllers\Visiteur.php(20): App\Models\ModeleProduit->retourner_vitrine()
+#6 C:\Users\BTS SIO\Documents\BTS sio\cours\activité pro alban\ChopesGames\system\CodeIgniter.php(824): App\Controllers\Visiteur->accueil()
+#7 C:\Users\BTS SIO\Documents\BTS sio\cours\activité pro alban\ChopesGames\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Visiteur))
+#8 C:\Users\BTS SIO\Documents\BTS sio\cours\activité pro alban\ChopesGames\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\BTS SIO\Documents\BTS sio\cours\activité pro alban\ChopesGames\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\BTS SIO\Documents\BTS sio\cours\activité pro alban\ChopesGames\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\BTS SI...')
+#11 {main}
+ERROR - 2022-12-15 02:37:51 --> Error connecting to the database: Access denied for user ''@'localhost' (using password: NO)
+CRITICAL - 2022-12-15 02:37:51 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+#0 C:\Users\BTS SIO\Documents\BTS sio\cours\activité pro alban\ChopesGames\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\Users\BTS SIO\Documents\BTS sio\cours\activité pro alban\ChopesGames\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\Users\BTS SIO\Documents\BTS sio\cours\activité pro alban\ChopesGames\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\Users\BTS SIO\Documents\BTS sio\cours\activité pro alban\ChopesGames\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 C:\Users\BTS SIO\Documents\BTS sio\cours\activité pro alban\ChopesGames\app\Models\ModeleProduit.php(27): CodeIgniter\BaseModel->findAll()
+#5 C:\Users\BTS SIO\Documents\BTS sio\cours\activité pro alban\ChopesGames\app\Controllers\Visiteur.php(20): App\Models\ModeleProduit->retourner_vitrine()
+#6 C:\Users\BTS SIO\Documents\BTS sio\cours\activité pro alban\ChopesGames\system\CodeIgniter.php(824): App\Controllers\Visiteur->accueil()
+#7 C:\Users\BTS SIO\Documents\BTS sio\cours\activité pro alban\ChopesGames\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Visiteur))
+#8 C:\Users\BTS SIO\Documents\BTS sio\cours\activité pro alban\ChopesGames\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\BTS SIO\Documents\BTS sio\cours\activité pro alban\ChopesGames\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\BTS SIO\Documents\BTS sio\cours\activité pro alban\ChopesGames\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\BTS SI...')
+#11 {main}
+INFO - 2022-12-15 02:44:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-12-15 02:44:33 --> CSRF cookie sent.
+INFO - 2022-12-15 04:47:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-12-15 04:47:34 --> CSRF cookie sent.
+INFO - 2022-12-15 04:47:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-12-15 04:47:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-12-15 04:47:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-12-15 04:48:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-12-15 04:50:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2022-12-15 04:50:35 --> min_lengh is not a valid rule.
+#0 C:\Users\BTS SIO\Documents\BTS sio\cours\activité pro alban\ChopesGames\system\Validation\Validation.php(285): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('min_lengh')
+#1 C:\Users\BTS SIO\Documents\BTS sio\cours\activité pro alban\ChopesGames\system\Validation\Validation.php(151): CodeIgniter\Validation\Validation->processRules('txtMdp', 'txtMdp', 'zizi', Array, Array)
+#2 C:\Users\BTS SIO\Documents\BTS sio\cours\activité pro alban\ChopesGames\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#3 C:\Users\BTS SIO\Documents\BTS sio\cours\activité pro alban\ChopesGames\app\Controllers\Visiteur.php(262): CodeIgniter\Controller->validate(Array, Array)
+#4 C:\Users\BTS SIO\Documents\BTS sio\cours\activité pro alban\ChopesGames\system\CodeIgniter.php(824): App\Controllers\Visiteur->s_enregistrer()
+#5 C:\Users\BTS SIO\Documents\BTS sio\cours\activité pro alban\ChopesGames\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Visiteur))
+#6 C:\Users\BTS SIO\Documents\BTS sio\cours\activité pro alban\ChopesGames\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\BTS SIO\Documents\BTS sio\cours\activité pro alban\ChopesGames\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\BTS SIO\Documents\BTS sio\cours\activité pro alban\ChopesGames\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\BTS SI...')
+#9 {main}
+INFO - 2022-12-15 04:51:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-12-15 04:58:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-12-15 05:02:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-12-15 05:16:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-12-15 05:16:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-12-15 05:16:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-12-15 05:16:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-12-15 05:16:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-12-15 05:17:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-12-15 05:17:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-12-15 05:17:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-12-15 05:18:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-12-15 05:18:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-12-15 05:18:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-12-15 05:18:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-12-15 05:18:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-12-15 05:18:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-12-15 05:19:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-12-15 05:22:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-12-15 05:23:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

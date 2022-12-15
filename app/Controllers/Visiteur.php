@@ -222,7 +222,7 @@ class Visiteur extends BaseController
             'txtVille'    => 'required',
             'txtCP' => 'required',
             'txtEmail' => 'required|valid_email|is_unique[client.EMAIL,id,{id}]',
-            'txtMdp'    => 'required'
+            'txtMdp'    => 'required|min_length[5]'
         ];
 
         if (!empty($session->get('statut'))) //régles de validation pour modification
@@ -251,6 +251,7 @@ class Visiteur extends BaseController
             ],
             'txtMdp'    => [
                 'required' => 'Un mot de passe est requis',
+                'min_length' => 'mot de passe trop petit',
             ]
         ];
         $modelCat = new ModeleCategorie();
